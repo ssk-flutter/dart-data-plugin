@@ -4,8 +4,8 @@ plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.3.21'
 }
 
-group 'andrasferenczi'
-version '0.1.1'
+group 'ssk0dev'
+version '2.0.0'
 
 sourceCompatibility = 1.8
 
