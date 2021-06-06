@@ -15,6 +15,7 @@ interface TypedVariableTemplateParam : NamedVariableTemplateParam {
     // Full type name, like Map<String, int>
     // (no imports needed, since this should be already in the class)
     val type: String
+    fun isNullable() = type.endsWith("?")
 }
 
 interface PrivateNamedVariableTemplateParam {
